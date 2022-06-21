@@ -1,4 +1,4 @@
-package src.java.command;
+package command;
 
 public enum CommandName {
 

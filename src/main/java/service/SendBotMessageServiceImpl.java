@@ -1,8 +1,8 @@
-package src.java.service;
+package service;
 
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
-import src.java.main.MyBot;
+import main.MyBot;
 
 import java.util.List;
 

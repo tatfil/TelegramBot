@@ -1,9 +1,9 @@
-package src.java.command;
+package command;
 
-import src.java.service.SendBotMessageService;
+import service.SendBotMessageService;
 import org.telegram.telegrambots.meta.api.objects.Update;
 
-import static src.java.command.CommandName.*;
+import static command.CommandName.*;
 
 public class HelpCommand implements Command {
 

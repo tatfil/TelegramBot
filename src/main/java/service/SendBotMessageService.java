@@ -1,4 +1,4 @@
-package src.java.service;
+package service;
 
 import java.util.List;
 

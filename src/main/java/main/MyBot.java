@@ -1,17 +1,18 @@
-package src.java.main;
+package main;
 
 
 import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
-import src.java.command.CommandContainer;
-import src.java.service.SendBotMessageServiceImpl;
+import command.CommandContainer;
+import service.SendBotMessageServiceImpl;
+
 
 
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
-import static src.java.command.CommandName.NO;
+import static command.CommandName.NO;
 
 
 public class MyBot extends TelegramLongPollingBot {

@@ -1,9 +1,11 @@
-package src.java.command;
+package command;
 
 import com.google.common.collect.ImmutableMap;
-import src.java.service.SendBotMessageService;
 
-import static src.java.command.CommandName.*;
+import service.SendBotMessageService;
+
+import static command.CommandName.*;
+
 
 
 /**
